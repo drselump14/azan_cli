@@ -50,6 +50,7 @@ defmodule AzanCli do
       end)
 
     %{
+      "current_prayer" => current_prayer |> Atom.to_string() |> String.upcase(),
       "next_prayer" => next_prayer |> Atom.to_string() |> String.upcase(),
       "next_prayer_time" => local_next_prayer_time,
       "remaining_total" => remaining_total,
