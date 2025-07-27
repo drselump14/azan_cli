@@ -4,7 +4,7 @@ defmodule AzanCli.MixProject do
   def project do
     [
       app: :azan_cli,
-      version: "0.2.0",
+      version: "0.3.0",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -39,8 +39,8 @@ defmodule AzanCli.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:azan_ex, "~> 0.2.0"},
-      {:burrito, "~> 1.2"},
+      {:azan_ex, "~> 0.3.0"},
+      {:burrito, "~> 1.3.0"},
       {:timex, "~> 3.7"}
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
